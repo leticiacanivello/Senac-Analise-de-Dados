@@ -1,0 +1,41 @@
+'''cliente = ['Joao', 22, 4800.50, 'Rua jota, n80']
+print(cliente[1:3])'''
+
+'''cliente = ['Joao', 22, 4800.50, 'Rua jota, n80'] #tem que estar entre colchetes
+print(cliente)
+
+telefone = 21990666958
+cliente.append(telefone)
+print(cliente)'''
+
+'''cliente = ['Joao', 22, 4800.50, 'Rua jota, n80']
+telefone = 21990666958
+cliente.append(telefone)
+for i in cliente:
+    print(i)'''
+
+'''cliente = []
+while True:
+    try:
+      num = int(input('Digite o numero:  '))
+      cliente.append(num)
+      sair = input('Deseja inserir mais um número? (S/N):  ').upper().strip()
+      if sair == 'N':
+         break
+    except:
+       print('Digite um numero válido:  ')
+
+for i in cliente:
+   print(i)'''
+
+
+while True:
+    try:
+      opcao = int(input('opção:'))
+      if opcao in [1,2,3,4]:
+         print('opção invalida')
+         break
+      else:
+         print("opção invalida")
+    except:
+      print('Digite um número válido')        
